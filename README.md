@@ -40,6 +40,6 @@ Previsões da LSTM:
   <img width="390" height="226" src="https://i.imgur.com/jaJYDJt.png">
 </p
 
-**OBS. 1:** Após a linha vertical (cor azul), tem-se a comparação da previsão da rede neural com os valores reais durante os 10 anos.
+**OBS. 1:** Após a linha vertical (cor azul), tem-se a comparação entre a previsão da rede neural com os valores reais durante os 10 anos.
 
 **OBS. 2:** Ao executar outras vezes, pode-se ter resultados diferentes, devido a inicialização dos pesos ser aleatória (inicialização normalizada de Glorot e Bengio, 2010). No entanto, nota-se que, a curva prevista pela LSTM segue a tendência dos valores de TFP reais.
