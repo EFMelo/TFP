@@ -14,13 +14,13 @@ Foi considerado que essa base de dados contém 3 séries temporais, uma para cad
 
 ### Resultados
 
-Para informar o país que se deseja fazer a previsão, só precisa modificar a variável ``country`` no ``main.py``:
+Para informar o país que se deseja fazer a previsão, só precisa modificar a variável ``country`` no arquivo ``main.py``:
 
 ```python
 country = 'MEX'  # <<<<<<<<<<  Options = 'USA', 'CAN' or 'MEX'. Just modify that line
 ```
 
-Previsões:
+Previsões da LSTM:
 
 - USA
 
@@ -40,6 +40,6 @@ Previsões:
   <img width="390" height="226" src="https://i.imgur.com/jaJYDJt.png">
 </p
 
-**OBS. 1:** Após a linha vertical (cor azul), tem-se a comparação da previsão com os valores reais durante os 10 anos.
+**OBS. 1:** Após a linha vertical (cor azul), tem-se a comparação da previsão da rede neural com os valores reais durante os 10 anos.
 
-**OBS. 2:** Ao executar outras vezes, pode-se ter resultados diferentes, devido a iniciaização dos pesos ser aleatória (inicialização normalizada de Glorot e Bengio, 2010). No entanto, nota-se que, a curva prevista segue a tendência dos valores de TFP reais.
+**OBS. 2:** Ao executar outras vezes, pode-se ter resultados diferentes, devido a inicialização dos pesos ser aleatória (inicialização normalizada de Glorot e Bengio, 2010). No entanto, nota-se que, a curva prevista pela LSTM segue a tendência dos valores de TFP reais.
